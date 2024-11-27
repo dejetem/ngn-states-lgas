@@ -1,0 +1,37 @@
+{
+  "name": "ngn-states-lgas",
+  "version": "1.0.0",
+  "description": "A package to retrieve Nigerian states and their LGAs.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "nigeria",
+    "states",
+    "lgas",
+    "local-government",
+    "state",
+    "local",
+    "government"
+  ],
+  "author": "dejetem",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "homepage": ""
+}
